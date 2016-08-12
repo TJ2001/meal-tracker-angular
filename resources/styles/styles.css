@@ -2,6 +2,50 @@ h1 {
   color: green;
 }
 
+select {
+  margin-top: 30px;
+}
+
+body {
+  background-color: #33cc33;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
 .selected {
-  color: #ff0066;
+  color: white;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.margin-left {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.tlc {
+  border-radius: 25px;
+  background: url(http://drobs.ru/opyat/28/linii_polosy_zheltoe_abstrakciya_2000x1000.jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  width: 440px;
+  height: 105px;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('http://www.lazuppa.com.au/globalassets/site-la-zuppa/cms-images/headers/header_lovesoupinpouch.jpg') no-repeat center center scroll;
+    padding: 100px 0;
 }
