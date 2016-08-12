@@ -12,7 +12,7 @@ import { CaloriesPipe } from './calx.pipe';
   pipes: [CaloriesPipe],
   directives: [FoodDisplayComponent, NewFoodComponent, EditFoodComponent],
   template: `
-  <food-display *ngFor="#currentFood of foodList | calories"
+  <food-display *ngFor="#currentFood of foodList | calories: selectedCalories"
     (click)="foodClicked(currentFood)"
     [class.selected]="currentFood === selectedFood"
     [food]="currentFood">
@@ -20,7 +20,11 @@ import { CaloriesPipe } from './calx.pipe';
   <new-food (onNewFood)="addFood($event)"></new-food>
   <edit-food-details *ngIf="selectedFood" [food]="selectedFood">
   </edit-food-details>
-
+  <select class="form-control" name="genre-select" (change)="onChange($event.target.value)">
+    <option value="all">All</option>
+    <option value="above">Over 500</option>
+    <option value="lower">Less than 501</option>
+  </select>
   `
 })
 export class FoodListComponent {
@@ -40,14 +44,7 @@ export class FoodListComponent {
     console.log("addFood Called");
     this.foodList.push(Food);
   }
+    onChange(selectedCalories) {
+    this.selectedCalories = selectedCalories;
+  }
 }
-//
-// filterCalories(genre: string) {
-//   this.selectedCalories = calories;
-// }
-//
-// <select class="form-control" name="genre-select" (change)="filterCalories($event.target.value)">
-//   <option value="All">All</option>
-//   <option value="Above">Over 500</option>
-//   <option value="Lower">Less than 501</option>
-// </select>
