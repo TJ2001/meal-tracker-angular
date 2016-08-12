@@ -1,5 +1,5 @@
 # Meal Tracker
-## JavaScript | Angular JS
+## JavaScript | Angular2
 
 #### Template in Angular2, August 12, 2016
 
@@ -29,7 +29,7 @@ npm install; bower install; apm install atom-typescript; gulp build; gulp serve
 
 ## Support and contact details
 
-If you run into any issues or have questions, ideas, or concerns, please feel free to contact me on GitHub.
+Please feel free to contact TJ2001 via Github.
 
 ## Technologies Used
 
@@ -37,11 +37,10 @@ If you run into any issues or have questions, ideas, or concerns, please feel fr
 * jQuery
 * Bower
 * NPM
-* GitHub API
+* Angular2
 
 ### License
 
 *MIT License*
-<a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>
 
 Copyright (c) 2016 **_Epicodus_**
