@@ -19,7 +19,10 @@ export class AppComponent {
   public foods: Food [];
   constructor(){
     this.foods = [
-      new Food("Pizza", "Uh oh", 15),
+      new Food("French Toast", "Atleast it was made using wheat bread...", 415),
+      new Food("Bacon", "Uh oh, ****!", 505),
+      new Food("Orange Juice", "Fresh-squeezed, yum", 140),
+      new Food("Fried Chicken", "Ummmm... no comment", 700),
     ];
   }
   foodWasSelected(clickedFood: Food): void {

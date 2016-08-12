@@ -6,10 +6,10 @@ import { Food } from './food.model';
     selector: 'food-display',
     inputs: ['food'],
   template: `
-    <h3>Food: {{ food.name }}</h3>
+    <h3>{{ food.name }}</h3>
     <h4>Details: "{{ food.details }}" <br> Calories: {{ food.calories }}</h4>
   `
 })
-export class FoodComponent {
+export class FoodDisplayComponent {
   public food: Food;
 }

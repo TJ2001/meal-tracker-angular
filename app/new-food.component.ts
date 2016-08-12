@@ -6,10 +6,11 @@ import {Food} from './food.model';
   selector: 'new-food',
   outputs: ['onNewFood'],
   template: `
-  <input placeholder="Food" #newName>
-  <input placeholder="Details" #newDetails>
-  <input type="number" placeholder="Calories" #newCalories>
-  <button (click)="addFood(newName, newDetails, newCalories)" class="btn-success btn-lg add-button">Add</button>
+  <br>
+  <input placeholder="Food" class="col-sm-2 input-lg" #newName>
+  <input placeholder="Details" class="col-sm-4 input-lg" #newDetails>
+  <input type="number" placeholder="Calories" class="col-sm-2 input-lg" #newCalories>
+  <button (click)="addFood(newName, newDetails, newCalories)" class="btn btn-danger btn-lg">Add</button>
   `
 })
 export class NewFoodComponent {
