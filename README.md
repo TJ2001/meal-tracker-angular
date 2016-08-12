@@ -1,39 +1,27 @@
-# EPICODUS STUDENT PROJECT
+# Meal Tracker
 ## JavaScript | Angular JS
 
-#### Template in Angular2, August 9, 2016
+#### Template in Angular2, August 12, 2016
 
-#### By _**Tim Jung & Maldon Meehan, Epicodus**_
+#### By _**Tim Jung**_
 
 ## Description
-Music store
-Create a product listing app for a CD store.
+Meal Tracker
+Food tracking app
 
-As the owner of this CD store, I want to display each album that is for sale with its name, artist, price and genre.
-I would like to be able to display only the albums belonging to a particular genre.
-I would also like to display only the albums belonging to a particular artist.
-I would like my users to be able to click a checkbox on each album to either add or remove the item to the shopping cart area of the page.
-I would like my shopping cart to display the total price of all the albums I have decided to buy.
+User can log a food he/she have eaten by submitting a form with food name, calories and details.
+User can view a list of foods I have logged.
+User has options to view all foods, only high-calorie foods (more than 500 calories), or only lower-calorie foods (less than 500 calories).
+User wants to click a food to edit its name, details or calories (in case user decide to pretend his/her fries were 100 calories instead of 365).
 
 ## Setup/Installation Requirements
 
 * Clone this repository
-* In the command-line run:
+* Use the terminal to run the following command-line:
 ```
-$ npm install
+npm install; bower install; apm install atom-typescript; gulp build; gulp serve
 ```
-```
-$ bower install
-```
-```
-$ apm install atom-typescript
-```
-```
-$ gulp build
-```
-```
-$ gulp serve
-```
+* Also must have npm installed globally
 
 ## Known Bugs
 
