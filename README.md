@@ -14,6 +14,11 @@ User can view a list of foods I have logged.
 User has options to view all foods, only high-calorie foods (more than 500 calories), or only lower-calorie foods (less than 500 calories).
 User wants to click a food to edit its name, details or calories (in case user decide to pretend his/her fries were 100 calories instead of 365).
 
+## Specifications
+
+* User can input food, description, and calories. The app will output the food item with properties unto a list.
+* User can adjust filter. The app will filter out items with calories above 500 or under 501.
+
 ## Setup/Installation Requirements
 
 * Clone this repository
@@ -34,6 +39,7 @@ Please feel free to contact TJ2001 via Github.
 ## Technologies Used
 
 * JavaScript
+* TypeScript
 * jQuery
 * Bower
 * NPM
