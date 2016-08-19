@@ -24,7 +24,7 @@ User wants to click a food to edit its name, details or calories (in case user d
 * Clone this repository
 * Use the terminal to run the following command-line:
 ```
-npm install; bower install; apm install atom-typescript; gulp build; gulp serve
+npm install; bower install; gulp build; gulp serve
 ```
 * Also must have npm installed globally
 

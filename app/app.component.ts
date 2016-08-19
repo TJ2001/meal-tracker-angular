@@ -29,20 +29,3 @@ export class AppComponent {
     console.log('parent', clickedFood);
   }
 }
-
-//
-// export class AppComponent {
-//   public foods: Food [];
-//   constructor(){
-//     this.foods = [
-//       new Food("French Toast", "Didn't get butter!", 376),
-//     ];
-//   }
-//   foodWasSelected(clickedFood: Food): void {
-//     console.log('parent', clickedFood);
-//   }
-// }
-//
-
-// new Food("Bacon", "I should really skip it next time...", 270),
-// new Food("Tea", "Need caffeine in the morning", 75),
